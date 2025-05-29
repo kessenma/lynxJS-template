@@ -6,14 +6,16 @@
     "build": "rspeedy build",
     "check": "biome check --write",
     "dev": "rspeedy dev",
-    "format": "prettier --write .",
+    "format": "prettier --writ1e .",
     "preview": "rspeedy preview",
 
     "boot-ios-emulator": "node scripts/boot-ios-emulator.cjs",
     "install-lynx-on-emulator": "node scripts/install-lynx-on-emulator.cjs",
     "launch-lynx": "node scripts/launch-lynx.cjs",
     "run-lynx-on-emulator": "node scripts/run-lynx-on-emulator.cjs",
-    "run-dev-on-emulator": "node scripts/run-dev-on-emulator.cjs"
+    "run-dev-on-emulator": "node scripts/run-dev-on-emulator.cjs",
+
+    "install:lynx": "pnpm add @lynx-js/rspeedy@0.8.2 @lynx-js/react@0.105.0 @lynx-js/react-rsbuild-plugin@0.9.0 @lynx-js/qrcode-rsbuild-plugin@0.3.3 --save-exact"
   },
   "dependencies": {
     "@lynx-js/react": "^0.105.0"
