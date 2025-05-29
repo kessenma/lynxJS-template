@@ -13,18 +13,16 @@
     "install-lynx-on-emulator": "node scripts/install-lynx-on-emulator.cjs",
     "launch-lynx": "node scripts/launch-lynx.cjs",
     "run-lynx-on-emulator": "node scripts/run-lynx-on-emulator.cjs",
-    "run-dev-on-emulator": "node scripts/run-dev-on-emulator.cjs",
-
-    "install:lynx": "pnpm add @lynx-js/rspeedy@0.8.2 @lynx-js/react@0.105.0 @lynx-js/react-rsbuild-plugin@0.9.0 @lynx-js/qrcode-rsbuild-plugin@0.3.3 --save-exact"
+    "run-dev-on-emulator": "node scripts/run-dev-on-emulator.cjs"
   },
   "dependencies": {
-    "@lynx-js/react": "^0.105.0"
+    "@lynx-js/react": "0.105.0"
   },
   "devDependencies": {
+    "@lynx-js/rspeedy": "0.8.2",
+    "@lynx-js/react-rsbuild-plugin": "0.9.0",
+    "@lynx-js/qrcode-rsbuild-plugin": "0.3.3",
     "@biomejs/biome": "^1.9.4",
-    "@lynx-js/qrcode-rsbuild-plugin": "^0.3.3",
-    "@lynx-js/react-rsbuild-plugin": "^0.9.0",
-    "@lynx-js/rspeedy": "^0.8.2",
     "@lynx-js/types": "^3.2.0",
     "@types/react": "^18.3.18",
     "prettier": "^3.5.2",
